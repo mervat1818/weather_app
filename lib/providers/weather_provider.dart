@@ -2,22 +2,6 @@
 import 'package:flutter/material.dart';
 
 import '../models/weather_model.dart';
-//
-// class WeatherProvider extends ChangeNotifier{
-//
-//   WeatherModel? _weatherData;
-//
-//   set _weatherData (WeatherModel? weather){
-//     _weatherData = weather;
-//     notifyListeners();
-//   }
-//
-//   WeatherModel? get weatherData => _weatherData!;
-//
-//
-//
-//
-// }
 
 class WeatherProvider extends ChangeNotifier {
   WeatherModel? _weatherData;
