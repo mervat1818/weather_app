@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                   end: Alignment.bottomCenter,
                 ),
               ),
-              //color: weatherData!.getThemeColor(),
+
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
